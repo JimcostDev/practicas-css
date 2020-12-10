@@ -1,0 +1,55 @@
+body {
+  background: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div {
+  /* modelo de caja */
+  margin: 20px 0px;
+}
+.btn {
+  background: #320120;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 20px;
+  margin: 0px 10px;
+}
+/****************HOVER**************/
+.btn:hover {
+  opacity: 0.8;
+}
+/****************TAMAÑOS**************/
+.btn-small {
+  font-size: 14px;
+  padding: 10px 15px;
+}
+.btn-medium {
+  font-size: 18px;
+  padding: 16px 21px;
+}
+.btn-big {
+  font-size: 20px;
+  padding: 20px 25px;
+}
+.btn-extra-big {
+  font-size: 22px;
+  padding: 25px 30px;
+}
+/************ COLORES *************/
+.yellow {
+  background: #ffbf00;
+}
+.green {
+  background: #3adf00;
+}
+.blue {
+  background: #045fb4;
+}
+.purple {
+  background: #df013a;
+}
+/***************** BORDE REDONDEADO **************/
+.border-radius {
+  border-radius: 60px;
+}
